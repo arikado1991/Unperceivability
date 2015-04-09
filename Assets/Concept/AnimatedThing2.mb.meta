@@ -54,6 +54,53 @@ ModelImporter:
     100096: joint7
     100098: leftArm
     100100: model:Group1
+    100102: AnimatedThing2:joint1
+    100104: AnimatedThing2:joint13
+    100106: AnimatedThing2:joint14
+    100108: AnimatedThing2:joint15
+    100110: AnimatedThing2:joint16
+    100112: AnimatedThing2:joint17
+    100114: AnimatedThing2:joint18
+    100116: AnimatedThing2:joint19
+    100118: AnimatedThing2:joint2
+    100120: AnimatedThing2:joint20
+    100122: AnimatedThing2:joint21
+    100124: AnimatedThing2:joint22
+    100126: AnimatedThing2:joint23
+    100128: AnimatedThing2:joint24
+    100130: AnimatedThing2:joint25
+    100132: AnimatedThing2:joint26
+    100134: AnimatedThing2:joint27
+    100136: AnimatedThing2:joint28
+    100138: AnimatedThing2:joint29
+    100140: AnimatedThing2:joint3
+    100142: AnimatedThing2:joint30
+    100144: AnimatedThing2:joint31
+    100146: AnimatedThing2:joint32
+    100148: AnimatedThing2:joint33
+    100150: AnimatedThing2:joint34
+    100152: AnimatedThing2:joint35
+    100154: AnimatedThing2:joint36
+    100156: AnimatedThing2:joint37
+    100158: AnimatedThing2:joint38
+    100160: AnimatedThing2:joint39
+    100162: AnimatedThing2:joint4
+    100164: AnimatedThing2:joint40
+    100166: AnimatedThing2:joint41
+    100168: AnimatedThing2:joint42
+    100170: AnimatedThing2:joint43
+    100172: AnimatedThing2:joint44
+    100174: AnimatedThing2:joint45
+    100176: AnimatedThing2:joint46
+    100178: AnimatedThing2:joint47
+    100180: AnimatedThing2:joint48
+    100182: AnimatedThing2:joint49
+    100184: AnimatedThing2:joint50
+    100186: AnimatedThing2:joint51
+    100188: AnimatedThing2:joint6
+    100190: AnimatedThing2:joint7
+    100192: AnimatedThing2:leftArm
+    100194: AnimatedThing2:model:Group1
     400000: //RootNode
     400002: ikHandle1
     400004: ikHandle2
@@ -105,9 +152,59 @@ ModelImporter:
     400096: joint7
     400098: leftArm
     400100: model:Group1
+    400102: AnimatedThing2:joint1
+    400104: AnimatedThing2:joint13
+    400106: AnimatedThing2:joint14
+    400108: AnimatedThing2:joint15
+    400110: AnimatedThing2:joint16
+    400112: AnimatedThing2:joint17
+    400114: AnimatedThing2:joint18
+    400116: AnimatedThing2:joint19
+    400118: AnimatedThing2:joint2
+    400120: AnimatedThing2:joint20
+    400122: AnimatedThing2:joint21
+    400124: AnimatedThing2:joint22
+    400126: AnimatedThing2:joint23
+    400128: AnimatedThing2:joint24
+    400130: AnimatedThing2:joint25
+    400132: AnimatedThing2:joint26
+    400134: AnimatedThing2:joint27
+    400136: AnimatedThing2:joint28
+    400138: AnimatedThing2:joint29
+    400140: AnimatedThing2:joint3
+    400142: AnimatedThing2:joint30
+    400144: AnimatedThing2:joint31
+    400146: AnimatedThing2:joint32
+    400148: AnimatedThing2:joint33
+    400150: AnimatedThing2:joint34
+    400152: AnimatedThing2:joint35
+    400154: AnimatedThing2:joint36
+    400156: AnimatedThing2:joint37
+    400158: AnimatedThing2:joint38
+    400160: AnimatedThing2:joint39
+    400162: AnimatedThing2:joint4
+    400164: AnimatedThing2:joint40
+    400166: AnimatedThing2:joint41
+    400168: AnimatedThing2:joint42
+    400170: AnimatedThing2:joint43
+    400172: AnimatedThing2:joint44
+    400174: AnimatedThing2:joint45
+    400176: AnimatedThing2:joint46
+    400178: AnimatedThing2:joint47
+    400180: AnimatedThing2:joint48
+    400182: AnimatedThing2:joint49
+    400184: AnimatedThing2:joint50
+    400186: AnimatedThing2:joint51
+    400188: AnimatedThing2:joint6
+    400190: AnimatedThing2:joint7
+    400192: AnimatedThing2:leftArm
+    400194: AnimatedThing2:model:Group1
     4300000: model:Group1
+    4300002: AnimatedThing2:model:Group1
+    7400000: Take 001
     9500000: //RootNode
     13700000: model:Group1
+    13700002: AnimatedThing2:model:Group1
   materials:
     importMaterials: 1
     materialName: 0

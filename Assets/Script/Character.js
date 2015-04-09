@@ -9,6 +9,8 @@ function Start () {
 function getHit(dmg: int){
 	hitpoints -= dmg;
 }
+
+
 function Update () {
 	if (anim.GetFloat("Cooldown") <= 0){
 		if (Input.GetKey('z')){
@@ -42,6 +44,6 @@ function Update () {
 		//dealing damage code could be put here
 	}
 	
-	if (hitpoints <= 0) GameObject.Destroy(this);
+	if (hitpoints <= 0) GameObject.Destroy(this.gameObject);
 }
 

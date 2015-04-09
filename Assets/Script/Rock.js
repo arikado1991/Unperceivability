@@ -15,8 +15,10 @@ function Update () {
 	transform.position += speed*dir;
 }
 
-function OnCollisionEnter(c: Collision){
+function OnCollisionEnter(c:Collision){
 	Debug.Log("collided");
-	c.gameObject.BroadcastMessage("getHit",100);
-	GameObject.Destroy(this);
+	if (c.gameObject.CompareTag("Enemy")){
+		c.gameObject.BroadcastMessage("getHit",100);
+		Destroy(this.gameObject);
+	}
 }
