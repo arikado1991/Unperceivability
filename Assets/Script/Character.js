@@ -1,10 +1,16 @@
 ﻿#pragma strict
-var speed: float = 0.1;
+
 var anim: Animator;
 var projectile: GameObject;
 var hitpoints = 500;
+@HideInInspector
+var speed: float;
+var turnSpeed: float;
+
 function Start () {
 	anim = this.GetComponent(Animator);
+	turnSpeed = 2.0;
+	speed	  = 0.08;
 }
 function getHit(dmg: int){
 	hitpoints -= dmg;
@@ -26,16 +32,17 @@ function Update () {
 		}
 	}
 	// movements stuffs
+	Debug.Log(turnSpeed);
 	var dir: Vector3;
 	if (Input.GetKey("up"))
-		dir = Vector3.forward;
-	else if (Input.GetKey("down"))
 		dir = Vector3.back;
-	else if (Input.GetKey("right"))
-		dir = Vector3.right;
-	else if (Input.GetKey("left"))
-		dir = Vector3.left;
-	transform.position += dir*speed;
+	if (Input.GetKey("down"))
+		dir = Vector3.forward;
+	if (Input.GetKey("right"))
+		this.transform.RotateAround(Vector3.up, Time.deltaTime*turnSpeed);
+	if (Input.GetKey("left"))
+		this.transform.RotateAround(Vector3.up, Time.deltaTime*-turnSpeed);
+	transform.position += this.transform.rotation* dir*speed;
 		
 	// make the model stop swinging his arm after the attack is over	
 	anim.SetFloat("Cooldown", anim.GetFloat("Cooldown") - Time.deltaTime);
